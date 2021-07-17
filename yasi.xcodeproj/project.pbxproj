@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40006C3624596AA6001ADF92 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C3424596AA6001ADF92 /* UIView_extra.m */; };
+		40006C47245986C6001ADF92 /* IELTS_MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C42245986C6001ADF92 /* IELTS_MainPageViewController.m */; };
+		40006C48245986C6001ADF92 /* IELTS_LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C43245986C6001ADF92 /* IELTS_LeftSlideViewController.m */; };
+		40006C4A245986C6001ADF92 /* IELTS_otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C45245986C6001ADF92 /* IELTS_otherViewController.m */; };
+		40006C4F24598A51001ADF92 /* IELTS_MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40006C4D24598A51001ADF92 /* IELTS_MainPageViewController.xib */; };
+		40006C532459AAD6001ADF92 /* IELTS_settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C512459AAD6001ADF92 /* IELTS_settingViewController.m */; };
+		40006C542459AAD6001ADF92 /* IELTS_settingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40006C522459AAD6001ADF92 /* IELTS_settingViewController.xib */; };
+		40006C59245AB334001ADF92 /* IELTS_RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C58245AB334001ADF92 /* IELTS_RecordModel.m */; };
+		40006C5E245AB49B001ADF92 /* IELTS_recordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40006C5C245AB49B001ADF92 /* IELTS_recordTableViewCell.m */; };
+		40006C5F245AB49B001ADF92 /* IELTS_recordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40006C5D245AB49B001ADF92 /* IELTS_recordTableViewCell.xib */; };
+		401EAA22245AC88900DAA813 /* IELTS_addRecVic.m in Sources */ = {isa = PBXBuildFile; fileRef = 401EAA20245AC88900DAA813 /* IELTS_addRecVic.m */; };
+		401EAA23245AC88900DAA813 /* IELTS_addRecVic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401EAA21245AC88900DAA813 /* IELTS_addRecVic.xib */; };
+		4064ABB02452AF3C00011554 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4064ABAE2452AF3C00011554 /* HttpRequest.m */; };
+		407A2AAF24607AF30048ABAC /* IELTS_RecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A2AAD24607AF30048ABAC /* IELTS_RecordDetailViewController.m */; };
+		407A2AB024607AF30048ABAC /* IELTS_RecordDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407A2AAE24607AF30048ABAC /* IELTS_RecordDetailViewController.xib */; };
+		407A52FE245411E300DC2611 /* IELTS_EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A52FC245411E300DC2611 /* IELTS_EditInfoViewController.m */; };
+		407A52FF245411E300DC2611 /* IELTS_EditInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407A52FD245411E300DC2611 /* IELTS_EditInfoViewController.xib */; };
+		407A53032454974200DC2611 /* IELTS_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A53022454974100DC2611 /* IELTS_Tools.m */; };
+		407A53072454A6B000DC2611 /* IELTS_phtotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A53062454A6B000DC2611 /* IELTS_phtotView.m */; };
+		407A53092454A6CD00DC2611 /* IELTS_phtotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407A53082454A6CD00DC2611 /* IELTS_phtotView.xib */; };
+		4084AB28245175D200510362 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB0D245175D200510362 /* SDWebImageManager.m */; };
+		4084AB29245175D200510362 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB0E245175D200510362 /* SDWebImageDecoder.m */; };
+		4084AB2A245175D300510362 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB10245175D200510362 /* UIImageView+HighlightedWebCache.m */; };
+		4084AB2B245175D300510362 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB12245175D200510362 /* SDWebImageDownloader.m */; };
+		4084AB2C245175D300510362 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB13245175D200510362 /* UIImage+GIF.m */; };
+		4084AB2D245175D300510362 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB15245175D200510362 /* UIImage+MultiFormat.m */; };
+		4084AB2E245175D300510362 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB16245175D200510362 /* SDWebImageCompat.m */; };
+		4084AB2F245175D300510362 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB17245175D200510362 /* SDWebImagePrefetcher.m */; };
+		4084AB30245175D300510362 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB19245175D200510362 /* SDImageCache.m */; };
+		4084AB31245175D300510362 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB1B245175D200510362 /* SDWebImageDownloaderOperation.m */; };
+		4084AB32245175D300510362 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB1E245175D200510362 /* NSData+ImageContentType.m */; };
+		4084AB33245175D300510362 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB1F245175D200510362 /* UIImageView+WebCache.m */; };
+		4084AB34245175D300510362 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB22245175D200510362 /* UIView+WebCacheOperation.m */; };
+		4084AB35245175D300510362 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB26245175D200510362 /* UIButton+WebCache.m */; };
+		4084AB402451A82400510362 /* IELTS_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084AB3E2451A82400510362 /* IELTS_LoginViewController.m */; };
+		4084AB412451A82400510362 /* IELTS_LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4084AB3F2451A82400510362 /* IELTS_LoginViewController.xib */; };
+		4088C6902455A0CE00718425 /* IELTS_SelectTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088C68E2455A0CD00718425 /* IELTS_SelectTimeViewController.m */; };
+		4088C6912455A0CE00718425 /* IELTS_SelectTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4088C68F2455A0CD00718425 /* IELTS_SelectTimeViewController.xib */; };
+		4088C7A32456ECC600718425 /* IELTS_datePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088C7A22456ECC600718425 /* IELTS_datePicker.m */; };
+		40AF753524625A17003FE5D3 /* IELTS_statisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF753324625A17003FE5D3 /* IELTS_statisViewController.m */; };
+		40AF753624625A17003FE5D3 /* IELTS_statisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AF753424625A17003FE5D3 /* IELTS_statisViewController.xib */; };
+		40AF754124626D64003FE5D3 /* LewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF753924626D63003FE5D3 /* LewBar.m */; };
+		40AF754224626D64003FE5D3 /* LewBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF753A24626D63003FE5D3 /* LewBarChart.m */; };
+		40AF754324626D64003FE5D3 /* LewBarChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF753F24626D63003FE5D3 /* LewBarChartData.m */; };
+		40AF754424626D64003FE5D3 /* LewLegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF754024626D63003FE5D3 /* LewLegendView.m */; };
+		40AF758A2462A71B003FE5D3 /* IELTS_AboutAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF75882462A71B003FE5D3 /* IELTS_AboutAppViewController.m */; };
+		40AF758B2462A71B003FE5D3 /* IELTS_AboutAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AF75892462A71B003FE5D3 /* IELTS_AboutAppViewController.xib */; };
+		40AF758F2462B5E8003FE5D3 /* IELTS_FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF758D2462B5E8003FE5D3 /* IELTS_FeedbackViewController.m */; };
+		40AF75902462B5E8003FE5D3 /* IELTS_FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AF758E2462B5E8003FE5D3 /* IELTS_FeedbackViewController.xib */; };
+		40B7C52B24516F02005E24E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7C52A24516F02005E24E0 /* AppDelegate.m */; };
+		40B7C53124516F02005E24E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7C53024516F02005E24E0 /* ViewController.m */; };
+		40B7C53424516F02005E24E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B7C53224516F02005E24E0 /* Main.storyboard */; };
+		40B7C53624516F08005E24E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B7C53524516F08005E24E0 /* Assets.xcassets */; };
+		40B7C53924516F08005E24E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B7C53724516F08005E24E0 /* LaunchScreen.storyboard */; };
+		40B7C53C24516F08005E24E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7C53B24516F08005E24E0 /* main.m */; };
+		40B7C54324516F1D005E24E0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 40B7C54224516F1D005E24E0 /* Podfile */; };
+		40C62AD12452DDBB00FDA272 /* IELTS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C62AD02452DDBB00FDA272 /* IELTS_User.m */; };
+		A8E70968426E64384648AEFE /* libPods-yasi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFC6E4F7D10CCB11092D8FB /* libPods-yasi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40006C3424596AA6001ADF92 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		40006C3524596AA6001ADF92 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		40006C3F245986C5001ADF92 /* IELTS_MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IELTS_MainPageViewController.h; sourceTree = "<group>"; };
+		40006C40245986C6001ADF92 /* IELTS_otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IELTS_otherViewController.h; sourceTree = "<group>"; };
+		40006C41245986C6001ADF92 /* IELTS_LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IELTS_LeftSlideViewController.h; sourceTree = "<group>"; };
+		40006C42245986C6001ADF92 /* IELTS_MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IELTS_MainPageViewController.m; sourceTree = "<group>"; };
+		40006C43245986C6001ADF92 /* IELTS_LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IELTS_LeftSlideViewController.m; sourceTree = "<group>"; };
+		40006C45245986C6001ADF92 /* IELTS_otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IELTS_otherViewController.m; sourceTree = "<group>"; };
+		40006C4D24598A51001ADF92 /* IELTS_MainPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_MainPageViewController.xib; sourceTree = "<group>"; };
+		40006C502459AAD6001ADF92 /* IELTS_settingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_settingViewController.h; sourceTree = "<group>"; };
+		40006C512459AAD6001ADF92 /* IELTS_settingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_settingViewController.m; sourceTree = "<group>"; };
+		40006C522459AAD6001ADF92 /* IELTS_settingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_settingViewController.xib; sourceTree = "<group>"; };
+		40006C57245AB334001ADF92 /* IELTS_RecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_RecordModel.h; sourceTree = "<group>"; };
+		40006C58245AB334001ADF92 /* IELTS_RecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_RecordModel.m; sourceTree = "<group>"; };
+		40006C5B245AB49B001ADF92 /* IELTS_recordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_recordTableViewCell.h; sourceTree = "<group>"; };
+		40006C5C245AB49B001ADF92 /* IELTS_recordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_recordTableViewCell.m; sourceTree = "<group>"; };
+		40006C5D245AB49B001ADF92 /* IELTS_recordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_recordTableViewCell.xib; sourceTree = "<group>"; };
+		401EAA1F245AC88900DAA813 /* IELTS_addRecVic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_addRecVic.h; sourceTree = "<group>"; };
+		401EAA20245AC88900DAA813 /* IELTS_addRecVic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_addRecVic.m; sourceTree = "<group>"; };
+		401EAA21245AC88900DAA813 /* IELTS_addRecVic.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_addRecVic.xib; sourceTree = "<group>"; };
+		4064ABAE2452AF3C00011554 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		4064ABAF2452AF3C00011554 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		407A2AAC24607AF30048ABAC /* IELTS_RecordDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_RecordDetailViewController.h; sourceTree = "<group>"; };
+		407A2AAD24607AF30048ABAC /* IELTS_RecordDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_RecordDetailViewController.m; sourceTree = "<group>"; };
+		407A2AAE24607AF30048ABAC /* IELTS_RecordDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_RecordDetailViewController.xib; sourceTree = "<group>"; };
+		407A52FB245411E300DC2611 /* IELTS_EditInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_EditInfoViewController.h; sourceTree = "<group>"; };
+		407A52FC245411E300DC2611 /* IELTS_EditInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_EditInfoViewController.m; sourceTree = "<group>"; };
+		407A52FD245411E300DC2611 /* IELTS_EditInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_EditInfoViewController.xib; sourceTree = "<group>"; };
+		407A53012454974100DC2611 /* IELTS_Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_Tools.h; sourceTree = "<group>"; };
+		407A53022454974100DC2611 /* IELTS_Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_Tools.m; sourceTree = "<group>"; };
+		407A53052454A6B000DC2611 /* IELTS_phtotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_phtotView.h; sourceTree = "<group>"; };
+		407A53062454A6B000DC2611 /* IELTS_phtotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_phtotView.m; sourceTree = "<group>"; };
+		407A53082454A6CD00DC2611 /* IELTS_phtotView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_phtotView.xib; sourceTree = "<group>"; };
+		4084AB0B245175D200510362 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		4084AB0C245175D200510362 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		4084AB0D245175D200510362 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		4084AB0E245175D200510362 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		4084AB0F245175D200510362 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		4084AB10245175D200510362 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		4084AB11245175D200510362 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		4084AB12245175D200510362 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		4084AB13245175D200510362 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		4084AB14245175D200510362 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		4084AB15245175D200510362 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		4084AB16245175D200510362 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		4084AB17245175D200510362 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		4084AB18245175D200510362 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		4084AB19245175D200510362 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		4084AB1A245175D200510362 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		4084AB1B245175D200510362 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		4084AB1C245175D200510362 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		4084AB1D245175D200510362 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		4084AB1E245175D200510362 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		4084AB1F245175D200510362 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4084AB20245175D200510362 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		4084AB21245175D200510362 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		4084AB22245175D200510362 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		4084AB23245175D200510362 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		4084AB24245175D200510362 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		4084AB25245175D200510362 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		4084AB26245175D200510362 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		4084AB27245175D200510362 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		4084AB372451762800510362 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4084AB3D2451A82400510362 /* IELTS_LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_LoginViewController.h; sourceTree = "<group>"; };
+		4084AB3E2451A82400510362 /* IELTS_LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_LoginViewController.m; sourceTree = "<group>"; };
+		4084AB3F2451A82400510362 /* IELTS_LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_LoginViewController.xib; sourceTree = "<group>"; };
+		4088C68D2455A0CD00718425 /* IELTS_SelectTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_SelectTimeViewController.h; sourceTree = "<group>"; };
+		4088C68E2455A0CD00718425 /* IELTS_SelectTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_SelectTimeViewController.m; sourceTree = "<group>"; };
+		4088C68F2455A0CD00718425 /* IELTS_SelectTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_SelectTimeViewController.xib; sourceTree = "<group>"; };
+		4088C7A12456ECC600718425 /* IELTS_datePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_datePicker.h; sourceTree = "<group>"; };
+		4088C7A22456ECC600718425 /* IELTS_datePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_datePicker.m; sourceTree = "<group>"; };
+		40AF753224625A17003FE5D3 /* IELTS_statisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_statisViewController.h; sourceTree = "<group>"; };
+		40AF753324625A17003FE5D3 /* IELTS_statisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_statisViewController.m; sourceTree = "<group>"; };
+		40AF753424625A17003FE5D3 /* IELTS_statisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_statisViewController.xib; sourceTree = "<group>"; };
+		40AF753824626D63003FE5D3 /* LewBarChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBarChartData.h; sourceTree = "<group>"; };
+		40AF753924626D63003FE5D3 /* LewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBar.m; sourceTree = "<group>"; };
+		40AF753A24626D63003FE5D3 /* LewBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBarChart.m; sourceTree = "<group>"; };
+		40AF753B24626D63003FE5D3 /* LewLegendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewLegendView.h; sourceTree = "<group>"; };
+		40AF753C24626D63003FE5D3 /* LewBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBarChart.h; sourceTree = "<group>"; };
+		40AF753D24626D63003FE5D3 /* LewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBar.h; sourceTree = "<group>"; };
+		40AF753E24626D63003FE5D3 /* LewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewCommon.h; sourceTree = "<group>"; };
+		40AF753F24626D63003FE5D3 /* LewBarChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBarChartData.m; sourceTree = "<group>"; };
+		40AF754024626D63003FE5D3 /* LewLegendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewLegendView.m; sourceTree = "<group>"; };
+		40AF75872462A71B003FE5D3 /* IELTS_AboutAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_AboutAppViewController.h; sourceTree = "<group>"; };
+		40AF75882462A71B003FE5D3 /* IELTS_AboutAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_AboutAppViewController.m; sourceTree = "<group>"; };
+		40AF75892462A71B003FE5D3 /* IELTS_AboutAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_AboutAppViewController.xib; sourceTree = "<group>"; };
+		40AF758C2462B5E8003FE5D3 /* IELTS_FeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_FeedbackViewController.h; sourceTree = "<group>"; };
+		40AF758D2462B5E8003FE5D3 /* IELTS_FeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_FeedbackViewController.m; sourceTree = "<group>"; };
+		40AF758E2462B5E8003FE5D3 /* IELTS_FeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IELTS_FeedbackViewController.xib; sourceTree = "<group>"; };
+		40B7C52624516F02005E24E0 /* IELTS  Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IELTS  Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B7C52924516F02005E24E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40B7C52A24516F02005E24E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40B7C52F24516F02005E24E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40B7C53024516F02005E24E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40B7C53324516F02005E24E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B7C53524516F08005E24E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B7C53824516F08005E24E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B7C53A24516F08005E24E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B7C53B24516F08005E24E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40B7C54224516F1D005E24E0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40C62ACF2452DDBB00FDA272 /* IELTS_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IELTS_User.h; sourceTree = "<group>"; };
+		40C62AD02452DDBB00FDA272 /* IELTS_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IELTS_User.m; sourceTree = "<group>"; };
+		96F70B0E5B213B2A14DFD602 /* Pods-yasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yasi.debug.xcconfig"; path = "Target Support Files/Pods-yasi/Pods-yasi.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFC6E4F7D10CCB11092D8FB /* libPods-yasi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yasi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63EEF8F1EF8AD709CEBDADF /* Pods-yasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yasi.release.xcconfig"; path = "Target Support Files/Pods-yasi/Pods-yasi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B7C52324516F02005E24E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E70968426E64384648AEFE /* libPods-yasi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA5DB534F01749EBFF1DE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC6E4F7D10CCB11092D8FB /* libPods-yasi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40006C2824596762001ADF92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				401EAA1E245AC83200DAA813 /* home */,
+				401EAA1D245AC82800DAA813 /* add */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40006C3324596A9D001ADF92 /* leftView */ = {
+			isa = PBXGroup;
+			children = (
+				40006C3524596AA6001ADF92 /* UIView_extra.h */,
+				40006C3424596AA6001ADF92 /* UIView_extra.m */,
+			);
+			path = leftView;
+			sourceTree = "<group>";
+		};
+		40006C55245AB2F1001ADF92 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				40C62ACF2452DDBB00FDA272 /* IELTS_User.h */,
+				40C62AD02452DDBB00FDA272 /* IELTS_User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		40006C56245AB314001ADF92 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				40006C57245AB334001ADF92 /* IELTS_RecordModel.h */,
+				40006C58245AB334001ADF92 /* IELTS_RecordModel.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		40006C5A245AB472001ADF92 /* recordCell */ = {
+			isa = PBXGroup;
+			children = (
+				40006C5B245AB49B001ADF92 /* IELTS_recordTableViewCell.h */,
+				40006C5C245AB49B001ADF92 /* IELTS_recordTableViewCell.m */,
+				40006C5D245AB49B001ADF92 /* IELTS_recordTableViewCell.xib */,
+			);
+			path = recordCell;
+			sourceTree = "<group>";
+		};
+		401EAA1D245AC82800DAA813 /* add */ = {
+			isa = PBXGroup;
+			children = (
+				401EAA1F245AC88900DAA813 /* IELTS_addRecVic.h */,
+				401EAA20245AC88900DAA813 /* IELTS_addRecVic.m */,
+				401EAA21245AC88900DAA813 /* IELTS_addRecVic.xib */,
+			);
+			path = add;
+			sourceTree = "<group>";
+		};
+		401EAA1E245AC83200DAA813 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				40006C41245986C6001ADF92 /* IELTS_LeftSlideViewController.h */,
+				40006C43245986C6001ADF92 /* IELTS_LeftSlideViewController.m */,
+				40006C3F245986C5001ADF92 /* IELTS_MainPageViewController.h */,
+				40006C42245986C6001ADF92 /* IELTS_MainPageViewController.m */,
+				40006C4D24598A51001ADF92 /* IELTS_MainPageViewController.xib */,
+				40006C40245986C6001ADF92 /* IELTS_otherViewController.h */,
+				40006C45245986C6001ADF92 /* IELTS_otherViewController.m */,
+				40006C502459AAD6001ADF92 /* IELTS_settingViewController.h */,
+				40006C512459AAD6001ADF92 /* IELTS_settingViewController.m */,
+				40006C522459AAD6001ADF92 /* IELTS_settingViewController.xib */,
+				407A2AAC24607AF30048ABAC /* IELTS_RecordDetailViewController.h */,
+				407A2AAD24607AF30048ABAC /* IELTS_RecordDetailViewController.m */,
+				407A2AAE24607AF30048ABAC /* IELTS_RecordDetailViewController.xib */,
+				40AF753224625A17003FE5D3 /* IELTS_statisViewController.h */,
+				40AF753324625A17003FE5D3 /* IELTS_statisViewController.m */,
+				40AF753424625A17003FE5D3 /* IELTS_statisViewController.xib */,
+				40AF75872462A71B003FE5D3 /* IELTS_AboutAppViewController.h */,
+				40AF75882462A71B003FE5D3 /* IELTS_AboutAppViewController.m */,
+				40AF75892462A71B003FE5D3 /* IELTS_AboutAppViewController.xib */,
+				40AF758C2462B5E8003FE5D3 /* IELTS_FeedbackViewController.h */,
+				40AF758D2462B5E8003FE5D3 /* IELTS_FeedbackViewController.m */,
+				40AF758E2462B5E8003FE5D3 /* IELTS_FeedbackViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4064AB702452AEA800011554 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				4064ABAF2452AF3C00011554 /* HttpRequest.h */,
+				4064ABAE2452AF3C00011554 /* HttpRequest.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		407A2C812461B7570048ABAC /* radar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = radar;
+			sourceTree = "<group>";
+		};
+		407A52FA245410FB00DC2611 /* EditInfo */ = {
+			isa = PBXGroup;
+			children = (
+				407A52FB245411E300DC2611 /* IELTS_EditInfoViewController.h */,
+				407A52FC245411E300DC2611 /* IELTS_EditInfoViewController.m */,
+				407A52FD245411E300DC2611 /* IELTS_EditInfoViewController.xib */,
+				4088C68D2455A0CD00718425 /* IELTS_SelectTimeViewController.h */,
+				4088C68E2455A0CD00718425 /* IELTS_SelectTimeViewController.m */,
+				4088C68F2455A0CD00718425 /* IELTS_SelectTimeViewController.xib */,
+			);
+			path = EditInfo;
+			sourceTree = "<group>";
+		};
+		407A53002454971D00DC2611 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				407A53012454974100DC2611 /* IELTS_Tools.h */,
+				407A53022454974100DC2611 /* IELTS_Tools.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		407A53042454A67D00DC2611 /* photoView */ = {
+			isa = PBXGroup;
+			children = (
+				407A53052454A6B000DC2611 /* IELTS_phtotView.h */,
+				407A53062454A6B000DC2611 /* IELTS_phtotView.m */,
+				407A53082454A6CD00DC2611 /* IELTS_phtotView.xib */,
+			);
+			path = photoView;
+			sourceTree = "<group>";
+		};
+		4084AB09245175CC00510362 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				40AF753724626D63003FE5D3 /* LewBarChart */,
+				4084AB0A245175D200510362 /* SDWebImage */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4084AB0A245175D200510362 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				4084AB0B245175D200510362 /* UIImageView+WebCache.h */,
+				4084AB0C245175D200510362 /* NSData+ImageContentType.h */,
+				4084AB0D245175D200510362 /* SDWebImageManager.m */,
+				4084AB0E245175D200510362 /* SDWebImageDecoder.m */,
+				4084AB0F245175D200510362 /* SDWebImageDownloaderOperation.h */,
+				4084AB10245175D200510362 /* UIImageView+HighlightedWebCache.m */,
+				4084AB11245175D200510362 /* SDImageCache.h */,
+				4084AB12245175D200510362 /* SDWebImageDownloader.m */,
+				4084AB13245175D200510362 /* UIImage+GIF.m */,
+				4084AB14245175D200510362 /* UIButton+WebCache.h */,
+				4084AB15245175D200510362 /* UIImage+MultiFormat.m */,
+				4084AB16245175D200510362 /* SDWebImageCompat.m */,
+				4084AB17245175D200510362 /* SDWebImagePrefetcher.m */,
+				4084AB18245175D200510362 /* UIView+WebCacheOperation.h */,
+				4084AB19245175D200510362 /* SDImageCache.m */,
+				4084AB1A245175D200510362 /* UIImageView+HighlightedWebCache.h */,
+				4084AB1B245175D200510362 /* SDWebImageDownloaderOperation.m */,
+				4084AB1C245175D200510362 /* SDWebImageDecoder.h */,
+				4084AB1D245175D200510362 /* SDWebImageManager.h */,
+				4084AB1E245175D200510362 /* NSData+ImageContentType.m */,
+				4084AB1F245175D200510362 /* UIImageView+WebCache.m */,
+				4084AB20245175D200510362 /* SDWebImageOperation.h */,
+				4084AB21245175D200510362 /* SDWebImageDownloader.h */,
+				4084AB22245175D200510362 /* UIView+WebCacheOperation.m */,
+				4084AB23245175D200510362 /* SDWebImagePrefetcher.h */,
+				4084AB24245175D200510362 /* SDWebImageCompat.h */,
+				4084AB25245175D200510362 /* UIImage+MultiFormat.h */,
+				4084AB26245175D200510362 /* UIButton+WebCache.m */,
+				4084AB27245175D200510362 /* UIImage+GIF.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		4084AB362451760F00510362 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				407A53002454971D00DC2611 /* tool */,
+				4064AB702452AEA800011554 /* net */,
+				4084AB372451762800510362 /* PrefixHeader.pch */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4084AB382451A60B00510362 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				4084AB392451A60B00510362 /* models */,
+				4084AB3A2451A60B00510362 /* controller */,
+				4084AB3B2451A60B00510362 /* view */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		4084AB392451A60B00510362 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				40006C56245AB314001ADF92 /* Record */,
+				40006C55245AB2F1001ADF92 /* User */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4084AB3A2451A60B00510362 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				40006C2824596762001ADF92 /* Home */,
+				407A52FA245410FB00DC2611 /* EditInfo */,
+				4084AB3C2451A6E700510362 /* login&register */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4084AB3B2451A60B00510362 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				407A2C812461B7570048ABAC /* radar */,
+				40006C5A245AB472001ADF92 /* recordCell */,
+				40006C3324596A9D001ADF92 /* leftView */,
+				4088C7A02456ECA400718425 /* datePicker */,
+				407A53042454A67D00DC2611 /* photoView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4084AB3C2451A6E700510362 /* login&register */ = {
+			isa = PBXGroup;
+			children = (
+				4084AB3D2451A82400510362 /* IELTS_LoginViewController.h */,
+				4084AB3E2451A82400510362 /* IELTS_LoginViewController.m */,
+				4084AB3F2451A82400510362 /* IELTS_LoginViewController.xib */,
+			);
+			path = "login&register";
+			sourceTree = "<group>";
+		};
+		4088C7A02456ECA400718425 /* datePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4088C7A12456ECC600718425 /* IELTS_datePicker.h */,
+				4088C7A22456ECC600718425 /* IELTS_datePicker.m */,
+			);
+			path = datePicker;
+			sourceTree = "<group>";
+		};
+		40AF753724626D63003FE5D3 /* LewBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				40AF753824626D63003FE5D3 /* LewBarChartData.h */,
+				40AF753924626D63003FE5D3 /* LewBar.m */,
+				40AF753A24626D63003FE5D3 /* LewBarChart.m */,
+				40AF753B24626D63003FE5D3 /* LewLegendView.h */,
+				40AF753C24626D63003FE5D3 /* LewBarChart.h */,
+				40AF753D24626D63003FE5D3 /* LewBar.h */,
+				40AF753E24626D63003FE5D3 /* LewCommon.h */,
+				40AF753F24626D63003FE5D3 /* LewBarChartData.m */,
+				40AF754024626D63003FE5D3 /* LewLegendView.m */,
+			);
+			path = LewBarChart;
+			sourceTree = "<group>";
+		};
+		40B7C51D24516F02005E24E0 = {
+			isa = PBXGroup;
+			children = (
+				40B7C54224516F1D005E24E0 /* Podfile */,
+				40B7C52824516F02005E24E0 /* yasi */,
+				40B7C52724516F02005E24E0 /* Products */,
+				95A4ED858AE14CD52C181F4C /* Pods */,
+				3DA5DB534F01749EBFF1DE5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40B7C52724516F02005E24E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B7C52624516F02005E24E0 /* IELTS  Assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B7C52824516F02005E24E0 /* yasi */ = {
+			isa = PBXGroup;
+			children = (
+				4084AB382451A60B00510362 /* class */,
+				4084AB362451760F00510362 /* common */,
+				4084AB09245175CC00510362 /* lib */,
+				40B7C52924516F02005E24E0 /* AppDelegate.h */,
+				40B7C52A24516F02005E24E0 /* AppDelegate.m */,
+				40B7C52F24516F02005E24E0 /* ViewController.h */,
+				40B7C53024516F02005E24E0 /* ViewController.m */,
+				40B7C53224516F02005E24E0 /* Main.storyboard */,
+				40B7C53524516F08005E24E0 /* Assets.xcassets */,
+				40B7C53724516F08005E24E0 /* LaunchScreen.storyboard */,
+				40B7C53A24516F08005E24E0 /* Info.plist */,
+				40B7C53B24516F08005E24E0 /* main.m */,
+			);
+			path = yasi;
+			sourceTree = "<group>";
+		};
+		95A4ED858AE14CD52C181F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96F70B0E5B213B2A14DFD602 /* Pods-yasi.debug.xcconfig */,
+				D63EEF8F1EF8AD709CEBDADF /* Pods-yasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B7C52524516F02005E24E0 /* yasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B7C53F24516F08005E24E0 /* Build configuration list for PBXNativeTarget "yasi" */;
+			buildPhases = (
+				295063F333D8A943EDE80D94 /* [CP] Check Pods Manifest.lock */,
+				40B7C52224516F02005E24E0 /* Sources */,
+				40B7C52324516F02005E24E0 /* Frameworks */,
+				40B7C52424516F02005E24E0 /* Resources */,
+				F51A8E8E925723CF704CB792 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yasi;
+			productName = yasi;
+			productReference = 40B7C52624516F02005E24E0 /* IELTS  Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B7C51E24516F02005E24E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IELTS_;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = MrLee;
+				TargetAttributes = {
+					40B7C52524516F02005E24E0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 40B7C52124516F02005E24E0 /* Build configuration list for PBXProject "yasi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40B7C51D24516F02005E24E0;
+			productRefGroup = 40B7C52724516F02005E24E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B7C52524516F02005E24E0 /* yasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B7C52424516F02005E24E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AF753624625A17003FE5D3 /* IELTS_statisViewController.xib in Resources */,
+				407A52FF245411E300DC2611 /* IELTS_EditInfoViewController.xib in Resources */,
+				40006C5F245AB49B001ADF92 /* IELTS_recordTableViewCell.xib in Resources */,
+				4084AB412451A82400510362 /* IELTS_LoginViewController.xib in Resources */,
+				40B7C53924516F08005E24E0 /* LaunchScreen.storyboard in Resources */,
+				40B7C53624516F08005E24E0 /* Assets.xcassets in Resources */,
+				401EAA23245AC88900DAA813 /* IELTS_addRecVic.xib in Resources */,
+				407A53092454A6CD00DC2611 /* IELTS_phtotView.xib in Resources */,
+				40006C542459AAD6001ADF92 /* IELTS_settingViewController.xib in Resources */,
+				40006C4F24598A51001ADF92 /* IELTS_MainPageViewController.xib in Resources */,
+				40AF75902462B5E8003FE5D3 /* IELTS_FeedbackViewController.xib in Resources */,
+				4088C6912455A0CE00718425 /* IELTS_SelectTimeViewController.xib in Resources */,
+				40B7C54324516F1D005E24E0 /* Podfile in Resources */,
+				40B7C53424516F02005E24E0 /* Main.storyboard in Resources */,
+				407A2AB024607AF30048ABAC /* IELTS_RecordDetailViewController.xib in Resources */,
+				40AF758B2462A71B003FE5D3 /* IELTS_AboutAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		295063F333D8A943EDE80D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51A8E8E925723CF704CB792 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yasi/Pods-yasi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yasi/Pods-yasi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yasi/Pods-yasi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B7C52224516F02005E24E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AF754124626D64003FE5D3 /* LewBar.m in Sources */,
+				4084AB34245175D300510362 /* UIView+WebCacheOperation.m in Sources */,
+				407A52FE245411E300DC2611 /* IELTS_EditInfoViewController.m in Sources */,
+				407A2AAF24607AF30048ABAC /* IELTS_RecordDetailViewController.m in Sources */,
+				4084AB2E245175D300510362 /* SDWebImageCompat.m in Sources */,
+				4088C7A32456ECC600718425 /* IELTS_datePicker.m in Sources */,
+				4084AB2C245175D300510362 /* UIImage+GIF.m in Sources */,
+				4084AB2B245175D300510362 /* SDWebImageDownloader.m in Sources */,
+				4084AB2D245175D300510362 /* UIImage+MultiFormat.m in Sources */,
+				4084AB31245175D300510362 /* SDWebImageDownloaderOperation.m in Sources */,
+				407A53032454974200DC2611 /* IELTS_Tools.m in Sources */,
+				40B7C53124516F02005E24E0 /* ViewController.m in Sources */,
+				4084AB35245175D300510362 /* UIButton+WebCache.m in Sources */,
+				4088C6902455A0CE00718425 /* IELTS_SelectTimeViewController.m in Sources */,
+				40006C59245AB334001ADF92 /* IELTS_RecordModel.m in Sources */,
+				407A53072454A6B000DC2611 /* IELTS_phtotView.m in Sources */,
+				401EAA22245AC88900DAA813 /* IELTS_addRecVic.m in Sources */,
+				40B7C52B24516F02005E24E0 /* AppDelegate.m in Sources */,
+				4084AB28245175D200510362 /* SDWebImageManager.m in Sources */,
+				40006C48245986C6001ADF92 /* IELTS_LeftSlideViewController.m in Sources */,
+				40B7C53C24516F08005E24E0 /* main.m in Sources */,
+				40006C3624596AA6001ADF92 /* UIView_extra.m in Sources */,
+				4084AB29245175D200510362 /* SDWebImageDecoder.m in Sources */,
+				40AF754424626D64003FE5D3 /* LewLegendView.m in Sources */,
+				4084AB33245175D300510362 /* UIImageView+WebCache.m in Sources */,
+				4064ABB02452AF3C00011554 /* HttpRequest.m in Sources */,
+				40AF754324626D64003FE5D3 /* LewBarChartData.m in Sources */,
+				40006C532459AAD6001ADF92 /* IELTS_settingViewController.m in Sources */,
+				40AF758A2462A71B003FE5D3 /* IELTS_AboutAppViewController.m in Sources */,
+				40AF753524625A17003FE5D3 /* IELTS_statisViewController.m in Sources */,
+				40C62AD12452DDBB00FDA272 /* IELTS_User.m in Sources */,
+				40AF754224626D64003FE5D3 /* LewBarChart.m in Sources */,
+				40006C5E245AB49B001ADF92 /* IELTS_recordTableViewCell.m in Sources */,
+				40006C4A245986C6001ADF92 /* IELTS_otherViewController.m in Sources */,
+				4084AB32245175D300510362 /* NSData+ImageContentType.m in Sources */,
+				4084AB2F245175D300510362 /* SDWebImagePrefetcher.m in Sources */,
+				40006C47245986C6001ADF92 /* IELTS_MainPageViewController.m in Sources */,
+				4084AB30245175D300510362 /* SDImageCache.m in Sources */,
+				40AF758F2462B5E8003FE5D3 /* IELTS_FeedbackViewController.m in Sources */,
+				4084AB402451A82400510362 /* IELTS_LoginViewController.m in Sources */,
+				4084AB2A245175D300510362 /* UIImageView+HighlightedWebCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40B7C53224516F02005E24E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B7C53324516F02005E24E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40B7C53724516F08005E24E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B7C53824516F08005E24E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40B7C53D24516F08005E24E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40B7C53E24516F08005E24E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B7C54024516F08005E24E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F70B0E5B213B2A14DFD602 /* Pods-yasi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = KGDQ4H5NJH;
+				GCC_PREFIX_HEADER = "/Users/mrlee/Desktop/我的/20年05月/雅思助手-李磊/yasi/yasi/common/PrefixHeader.pch";
+				INFOPLIST_FILE = yasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Meng.IELTESAssistant.App;
+				PRODUCT_NAME = "IELTS  Assistant";
+				PROVISIONING_PROFILE_SPECIFIER = Meng.IELTESAssistant.App;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40B7C54124516F08005E24E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63EEF8F1EF8AD709CEBDADF /* Pods-yasi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = KGDQ4H5NJH;
+				GCC_PREFIX_HEADER = "/Users/mrlee/Desktop/我的/20年05月/雅思助手-李磊/yasi/yasi/common/PrefixHeader.pch";
+				INFOPLIST_FILE = yasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Meng.IELTESAssistant.App;
+				PRODUCT_NAME = "IELTS  Assistant";
+				PROVISIONING_PROFILE_SPECIFIER = Meng.IELTESAssistant.App;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B7C52124516F02005E24E0 /* Build configuration list for PBXProject "yasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7C53D24516F08005E24E0 /* Debug */,
+				40B7C53E24516F08005E24E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B7C53F24516F08005E24E0 /* Build configuration list for PBXNativeTarget "yasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7C54024516F08005E24E0 /* Debug */,
+				40B7C54124516F08005E24E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40B7C51E24516F02005E24E0 /* Project object */;
+}

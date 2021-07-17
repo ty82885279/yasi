@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FishFarm.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>6EA149222114D0BB8A8A0976BA4FF97487CD6E51</string>
+				<key>dateExpires</key>
+				<string>2021/4/9</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>KGDQ4H5NJH.Meng.FishesManger.App</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>KGDQ4H5NJH</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>KGDQ4H5NJH.Meng.FishesManger.App</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Fishes Manger.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>05f06b7d-6748-450a-a111-26a33b8a72ee</string>
+				<key>name</key>
+				<string>Meng.FishesManger.App</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>KGDQ4H5NJH</string>
+				<key>name</key>
+				<string>Guangzhou Mengxiong Trade Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

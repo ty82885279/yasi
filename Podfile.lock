@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - FSCalendar (2.8.1)
+  - IQKeyboardManager (6.5.5)
+  - JSONModel (1.8.0)
+  - Masonry (1.0.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking/NSURLSession (~> 3.0)
+  - AFNetworking/Reachability (~> 3.0)
+  - AFNetworking/Security (~> 3.0)
+  - AFNetworking/Serialization (~> 3.0)
+  - FSCalendar
+  - IQKeyboardManager
+  - JSONModel
+  - Masonry (~> 1.0.2)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FSCalendar
+    - IQKeyboardManager
+    - JSONModel
+    - Masonry
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 690bff0bb0d91e868f129847f05aa2e93e79df13
+
+COCOAPODS: 1.8.4

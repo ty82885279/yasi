@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="IELTS_recordTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="690 150 background" translatesAutoresizingMaskIntoConstraints="NO" id="kze-sD-6h1">
+                        <rect key="frame" x="12" y="0.0" width="319" height="70"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020-15-31" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goy-eb-WNQ">
+                        <rect key="frame" x="83" y="25" width="117" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="WKL-e9-wIZ"/>
+                            <constraint firstAttribute="width" constant="117" id="iHJ-7Q-i8x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="round background备份" translatesAutoresizingMaskIntoConstraints="NO" id="Xq0-Dj-IjV">
+                        <rect key="frame" x="25" y="14" width="43" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="HQe-gp-ilf"/>
+                            <constraint firstAttribute="height" constant="43" id="tZa-YU-7zZ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mypass" translatesAutoresizingMaskIntoConstraints="NO" id="8OY-Ux-9RM">
+                        <rect key="frame" x="284" y="21" width="30" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="4yf-Z5-dBw"/>
+                            <constraint firstAttribute="width" constant="30" id="U54-f4-gmJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GN0-Hk-rSu">
+                        <rect key="frame" x="225" y="20" width="44" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="101-co-3sJ"/>
+                            <constraint firstAttribute="height" constant="28" id="obj-Oi-KEr"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="8.8">
+                                <attributes>
+                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="25" name="PingFangSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sR3-qQ-wjP">
+                        <rect key="frame" x="30" y="18" width="33" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="mly-yw-GfY"/>
+                            <constraint firstAttribute="width" constant="33" id="pWl-Oa-hlp"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="8">
+                                <attributes>
+                                    <color key="NSColor" red="0.99607843137254903" green="0.83137254901960778" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="22" name="PingFangSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sR3-qQ-wjP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="3h0-jT-bG1"/>
+                    <constraint firstItem="Xq0-Dj-IjV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="6Kf-wm-W9t"/>
+                    <constraint firstItem="8OY-Ux-9RM" firstAttribute="leading" secondItem="GN0-Hk-rSu" secondAttribute="trailing" constant="15" id="Gjd-Vg-3AK"/>
+                    <constraint firstItem="kze-sD-6h1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Kwz-S3-PBX"/>
+                    <constraint firstItem="GN0-Hk-rSu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Rjl-c5-rqt"/>
+                    <constraint firstAttribute="bottom" secondItem="kze-sD-6h1" secondAttribute="bottom" constant="5" id="VGS-WS-eqP"/>
+                    <constraint firstItem="kze-sD-6h1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="XTI-PA-K7u"/>
+                    <constraint firstAttribute="trailing" secondItem="8OY-Ux-9RM" secondAttribute="trailing" constant="29" id="Zwt-Do-usw"/>
+                    <constraint firstItem="sR3-qQ-wjP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="eB6-hR-hPY"/>
+                    <constraint firstAttribute="trailing" secondItem="kze-sD-6h1" secondAttribute="trailing" constant="12" id="g84-oh-yBH"/>
+                    <constraint firstItem="Xq0-Dj-IjV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="jFb-ZQ-dle"/>
+                    <constraint firstItem="8OY-Ux-9RM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="r46-Y5-iVx"/>
+                    <constraint firstItem="goy-eb-WNQ" firstAttribute="leading" secondItem="Xq0-Dj-IjV" secondAttribute="trailing" constant="15" id="yGL-js-pVl"/>
+                    <constraint firstItem="goy-eb-WNQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="ys0-Bl-3eF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="indexL" destination="sR3-qQ-wjP" id="uJG-YH-dvh"/>
+                <outlet property="passImg" destination="8OY-Ux-9RM" id="hUM-A2-pGy"/>
+                <outlet property="scoreL" destination="GN0-Hk-rSu" id="f1B-7H-MAH"/>
+                <outlet property="timeL" destination="goy-eb-WNQ" id="QFj-z4-0gX"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="118.19196428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="690 150 background" width="345" height="75"/>
+        <image name="mypass" width="140" height="140"/>
+        <image name="round background备份" width="42" height="42"/>
+    </resources>
+</document>

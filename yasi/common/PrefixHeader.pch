@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  yasi
+//
+//  Created by MrLee on 2020/4/23.
+//  Copyright © 2020 MrLee. All rights reserved.
+//
+
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//#define Address @"http://10.211.55.133:8080/v1"
+
+//#define Address @"http://localhost:8080/v1"
+#define Address @"http://47.101.155.129:9090/v1"
+
+//
+
+#import <Masonry.h>
+
+#define Regular_font(_size_) [UIFont fontWithName:@"PingFangSC-Regular" size:_size_]
+#define Main_Color RGB(124,186,181,1)
+#define Top_Color RGB(44,53,58,1)
+#define Button_Color RGB(225,179,131,1)
+
+#define Main_Screen [UIScreen mainScreen].bounds
+#define Screen_width [UIScreen mainScreen].bounds.size.width
+#define Screen_height [UIScreen mainScreen].bounds.size.height
+
+#define ImageName(_name_)  [UIImage imageNamed:_name_]
+#define Stauce_height [UIApplication sharedApplication].statusBarFrame.size.height
+#define Bottom_height ((Stauce_height==44)?34:0)
+#define RGB(_r_,_g_,_b_,_a_) [UIColor colorWithRed:_r_/255.0 green:_g_/255.0 blue:_b_/255.0 alpha:_a_/1.0]
+#define RGBColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]//RGBA
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//
+
+#import "UIImageView+WebCache.h"
+#import "SVProgressHUD.h"
+#import "JSONModel.h"
+
+
+
+//
+#import "IELTS_Tools.h"
+#import "HttpRequest.h"
+#endif /* PrefixHeader_pch */
